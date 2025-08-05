@@ -15,7 +15,7 @@ public class DemoApplication {
 		SpringApplication.run(DemoApplication.class, args);
 	}
 
-	/* Teste
+	/* Teste utilizando a criptografica para senhas de usuarios
 	@Override
 	public void run(String... args) throws Exception {
 		
