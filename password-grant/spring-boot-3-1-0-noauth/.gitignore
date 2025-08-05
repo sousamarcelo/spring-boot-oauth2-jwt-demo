@@ -13,8 +13,9 @@ target/
 .springBeans
 .sts4-cache
 
-*.md
-*.json
+postman-collection.json
+postman-environment.json
+README.md
 
 ### IntelliJ IDEA ###
 .idea
