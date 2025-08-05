@@ -44,7 +44,7 @@ public class Role {
 	@Override
 	public int hashCode() {
 		return Objects.hash(authority);
-	}
+	}	
 
 	@Override
 	public boolean equals(Object obj) {

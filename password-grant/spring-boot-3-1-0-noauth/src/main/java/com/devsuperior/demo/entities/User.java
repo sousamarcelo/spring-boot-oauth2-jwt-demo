@@ -79,6 +79,15 @@ public class User {
     public void addRole(Role role) {
 		roles.add(role);
 	} 
+    
+    public boolean hasRole(String roleName) {
+    	for(Role role : roles) {
+    		if (role.getAuthority().equals(roleName)) {
+				return true;
+			}
+    	}
+    	return false;
+    }
 
     @Override
     public boolean equals(Object o) {
