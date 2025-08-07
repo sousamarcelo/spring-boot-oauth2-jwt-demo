@@ -28,7 +28,7 @@ import org.springframework.web.filter.CorsFilter;
 public class ResourceServerConfig {
 
 	@Value("${cors.origins}")
-	private String corsOrigins;
+	private String corsOrigins;  //recursos do navegador que defino quais hosts podem acessar o back end da aplicação, no arquivo .properts
 
 	@Bean
 	@Profile("test")
