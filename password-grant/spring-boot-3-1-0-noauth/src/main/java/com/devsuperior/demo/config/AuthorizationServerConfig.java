@@ -54,7 +54,9 @@ import com.nimbusds.jose.proc.SecurityContext;
 
 @Configuration
 public class AuthorizationServerConfig {
-
+	
+	//são atributos de configurações do arquivo .properts
+	
 	@Value("${security.client-id}")
 	private String clientId;
 
